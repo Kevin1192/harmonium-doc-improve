@@ -8,7 +8,7 @@
 
 #### 1. For less experienced developers, it’s unclear how to import sass files and replicate the examples locally.
 
-#####  1. suggestions:
+##### suggestions:
 
 * On installation section, add `npm install --save node-sass` instruction  and/or 
 link tutorials on how to import sass stylesheets into react app. (https://www.w3schools.com/react/react_sass.asp)
@@ -38,7 +38,7 @@ to:
 
 #### 2. The link for downloading the starter settings in the middle of the document does not work.
 
-##### 2. suggestions:
+##### suggestions:
 current: 
 ```
 Harmonium includes !default values for color-palette and harmonium-settings vars. You can download the starter settings here (which include color-palette.scss and harmonium-settings.scss) and easily view/edit variables to fit your project
@@ -50,7 +50,7 @@ The hypelink on `here` directs users to page not found.
 
  #### 3. No direct navigation to the installation and setup page on side navbar.
 
-#####  3. suggestions:
+##### suggestions:
 
 ###### Personal experience: Without realizing the logo redirects you to the Installation and Setup page, I had to resort to the instructions on Github and NPM to find the information.
 
