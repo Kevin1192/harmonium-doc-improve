@@ -47,6 +47,12 @@ Harmonium includes !default values for color-palette and harmonium-settings vars
 ```
 The hypelink on `here` directs users to page not found.
 
-Fix: replace the link with the one on side Nav that's working properly.
+* Fix: replace the link with the one on side Nav that's working properly.
+
+####  3. suggestions on issue 3:
+
+###### Personal experience: Without realizing the logo redirects you to the Installation and Setup page, I had to resort to the instructions on Github and NPM to find the information.
+
+* Fix: Add a direct link of the Setup page to the side Nav.
 
 
