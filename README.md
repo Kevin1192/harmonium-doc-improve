@@ -60,7 +60,7 @@ The hypelink on `here` directs users to page not found.
 
 ### current issues: 
 
-1. Not all sections of the code demos have the libraries imported. For user-friendliness, it's better that users can just copy and paste the code demos to have working examples.
+1. Not all sections of the code demos have the libraries imported. For user-friendliness, it's better that users can just copy and paste the code demos to have working examples. (Inspired by Material-UI documentation.)
 
 ### Potential improvement
 
