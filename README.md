@@ -6,13 +6,9 @@
 
 ### current issues: 
 
- 1. For less experienced developers, it’s unclear how to import sass files and replicate the examples locally.
- 2. The link for downloading the starter settings in the middle of the document does not work.
- 3. No direct navigation to the installation and setup page on side navbar.
+#### 1. For less experienced developers, it’s unclear how to import sass files and replicate the examples locally.
 
-### Potential improvement
-
-####  1. suggestions on issue 1:
+#####  1. suggestions:
 
 * On installation section, add `npm install --save node-sass` instruction  and/or 
 link tutorials on how to import sass stylesheets into react app. (https://www.w3schools.com/react/react_sass.asp)
@@ -40,7 +36,9 @@ to:
 ###### Personal experience with the issue: I got stuck with `wherever-your-styles-live` for a while. Might just be my own problem. Could help someone like me to follow the instruction more easily by adding an example
 * Remind them to import the scss file in their react app like they would with css files. Presumably in index.js.
 
-####  2. suggestions on issue 2:
+#### 2. The link for downloading the starter settings in the middle of the document does not work.
+
+##### 2. suggestions:
 current: 
 ```
 Harmonium includes !default values for color-palette and harmonium-settings vars. You can download the starter settings here (which include color-palette.scss and harmonium-settings.scss) and easily view/edit variables to fit your project
@@ -49,7 +47,10 @@ The hypelink on `here` directs users to page not found.
 
 * Fix: replace the link with the one on side Nav that's working properly.
 
-####  3. suggestions on issue 3:
+
+ #### 3. No direct navigation to the installation and setup page on side navbar.
+
+#####  3. suggestions:
 
 ###### Personal experience: Without realizing the logo redirects you to the Installation and Setup page, I had to resort to the instructions on Github and NPM to find the information.
 
