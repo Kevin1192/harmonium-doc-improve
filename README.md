@@ -2,12 +2,13 @@
 
 #### Suggestions on how to improve [Harmonium documentation](https://harmonium.revelry.co/)
 
-## 1. Setup section
+## 1. Installation and Setup section
 
 ### current issues: 
 
  1. For less experienced developers, it’s unclear how to import sass files and replicate the examples locally.
  2. The link for downloading the starter settings in the middle of the document does not work.
+ 3. No direct navigation to the installation and setup page on side navbar.
 
 ### Potential improvement
 
@@ -36,7 +37,7 @@ to:
 @import '~/harmonium/scss/app';
 /* your styles here; */
 ```
-(I got stuck with `wherever-your-styles-live` for a while. Might just be my own problem. Could help someone like me to follow the instruction more easily by adding an example)
+###### Personal experience with the issue: I got stuck with `wherever-your-styles-live` for a while. Might just be my own problem. Could help someone like me to follow the instruction more easily by adding an example
 * Remind them to import the scss file in their react app like they would with css files. Presumably in index.js.
 
 ####  2. suggestions on issue 2:
