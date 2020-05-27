@@ -56,3 +56,59 @@ The hypelink on `here` directs users to page not found.
 * Fix: Add a direct link of the Setup page to the side Nav.
 
 
+## 2. Miscellanous Section
+
+### current issues: 
+
+1. Not all sections of the code demos have the libraries imported. For user-friendliness, it's better that users can just copy and paste the code demos to have working examples.
+
+### Potential improvement
+
+####  1. suggestions on issue 1:
+
+current:
+```jsx
+<Row className="ExampleButtons">
+  <Col>
+    <h3>Button Sizes</h3>  
+    <p>Properties such as <code>small</code> and <code>large</code> can be added to your button in order to change its size.</p>
+  </Col>
+  <Col>
+    <Button small>Small</Button>
+    <Button>Default</Button>
+    <Button large>Large</Button>
+  </Col>
+</Row>
+
+```
+to:
+
+```jsx
+import React, { Component } from "react";
+import Row from "harmonium/lib/Row";
+import Col from "harmonium/lib/Col";
+import Button from "harmonium/lib/Button";
+
+
+export default function Buttons() {
+
+return (
+<Row className="ExampleButtons">
+  <Col>
+    <h3>Button Sizes</h3>  
+    <p>Properties such as <code>small</code> and <code>large</code> can be added to your button in order to change its size.</p>
+  </Col>
+  <Col>
+    <Button small>Small</Button>
+    <Button>Default</Button>
+    <Button large>Large</Button>
+  </Col>
+</Row>
+)}
+
+```
+
+
+
+
+
