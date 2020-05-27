@@ -4,13 +4,14 @@
 
 ## 1. Setup section
 
-###### current issues: 
+#### current issues: 
 
-1. For less experienced developers, it’s unclear how to import sass files and replicate the examples locally.
+ 1. For less experienced developers, it’s unclear how to import sass files and replicate the examples locally.
+ 2. The link for downloading the starter settings in the middle of the document does not work.
 
-###### Potential improvement
+#### Potential improvement
 
-##### issue 1:
+#####  1. suggestions on issue 1:
 
 * On installation section, add `npm install --save node-sass` instruction  and/or 
 link tutorials on how to import sass stylesheets into react app. (https://www.w3schools.com/react/react_sass.asp)
@@ -37,3 +38,11 @@ to:
 ```
 (I got stuck with `wherever-your-styles-live` for a while. Might just be my own problem. Could help someone like me to follow the instruction more easily by adding an example)
 * Remind them to import the scss file in their react app like they would with css files. Presumably in index.js.
+
+#####  2. suggestions on issue 2:
+current: 
+```sh
+Harmonium includes !default values for color-palette and harmonium-settings vars. You can download the starter settings here (which include color-palette.scss and harmonium-settings.scss) and easily view/edit variables to fit your project
+```
+
+
